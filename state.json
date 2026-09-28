@@ -1,0 +1,88 @@
+{
+  "runs": [
+    {
+      "run_id": "d10ac7cbfd55",
+      "timestamp": "2026-09-28T14:08:44+0800",
+      "results": [
+        {
+          "object": "srv-01",
+          "raw_score": 34.0,
+          "weight_sum": 4.0,
+          "normalized": 8.5,
+          "breakdown": [
+            {
+              "rule": "hot",
+              "weight": 3,
+              "score": 10,
+              "contribution": 30
+            },
+            {
+              "rule": "web",
+              "weight": 1,
+              "score": 4,
+              "contribution": 4
+            }
+          ]
+        },
+        {
+          "object": "srv-02",
+          "raw_score": 0.0,
+          "weight_sum": 0.0,
+          "normalized": 0.0,
+          "breakdown": []
+        }
+      ],
+      "errors": [
+        {
+          "type": "missing_attribute",
+          "object": "srv-02",
+          "attribute": "ports",
+          "rule": "web",
+          "message": "规则 web 的 condition 引用了对象 'srv-02' 上不存在的属性 'ports'"
+        }
+      ]
+    },
+    {
+      "run_id": "412f6b9f412b",
+      "timestamp": "2026-09-28T14:08:44+0800",
+      "results": [
+        {
+          "object": "srv-01",
+          "raw_score": 34.0,
+          "weight_sum": 4.0,
+          "normalized": 8.5,
+          "breakdown": [
+            {
+              "rule": "hot",
+              "weight": 3,
+              "score": 10,
+              "contribution": 30
+            },
+            {
+              "rule": "web",
+              "weight": 1,
+              "score": 4,
+              "contribution": 4
+            }
+          ]
+        },
+        {
+          "object": "srv-02",
+          "raw_score": 0.0,
+          "weight_sum": 0.0,
+          "normalized": 0.0,
+          "breakdown": []
+        }
+      ],
+      "errors": [
+        {
+          "type": "missing_attribute",
+          "object": "srv-02",
+          "attribute": "ports",
+          "rule": "web",
+          "message": "规则 web 的 condition 引用了对象 'srv-02' 上不存在的属性 'ports'"
+        }
+      ]
+    }
+  ]
+}
